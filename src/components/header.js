@@ -36,15 +36,15 @@ export default class Header extends React.Component {
           dark
           expand="sm"
         >
-          <NavbarBrand href="/">MEDLEMSSYSTEM</NavbarBrand>
+          <NavbarBrand href="/" className="navbar-brand-dark">MEDLEMSSYSTEM</NavbarBrand>
           <NavbarToggler onClick={this.toggle} />
           <Collapse isOpen={this.state.isOpen} navbar>
             <Nav className="ml-auto" navbar>
               <NavItem>
-                <NavLink href="/overview/">Oversigt</NavLink>
+                <NavLink href="/overview/" className="navbar-link-dark">Oversigt</NavLink>
               </NavItem>
               <NavItem>
-                <NavLink href="/logout">Log Ud</NavLink>
+                <NavLink href="/logout" className="navbar-link-style">Log Ud</NavLink>
               </NavItem>
             </Nav>
           </Collapse>

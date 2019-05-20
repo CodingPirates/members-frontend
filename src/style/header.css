@@ -2,8 +2,8 @@
     background-color: #fef200 !important;
 }
 
-.navbar-brand {
-    color: rgba(0,0,0,1) !important;
+.navbar-brand-dark {
+    color: rgba(0,0,0,1);
     font-weight: bold;
     font-size: large;
 }
