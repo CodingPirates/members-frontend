@@ -3,7 +3,7 @@
 }
 
 .navbar-brand-dark {
-    color: rgba(0,0,0,1);
+    color: rgba(0,0,0,1) !important;
     font-weight: bold;
     font-size: large;
 }
@@ -30,4 +30,15 @@
     color: rgba(0,0,0,.5) !important;
     font-weight: bold;
     font-size: large;
+}
+
+
+
+.header-pixels {
+    min-height: 64px;
+}
+
+.header-logo {
+    float: right;
+    height: 122px !important;
 }

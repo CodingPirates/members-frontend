@@ -28,8 +28,8 @@ export default class Header extends React.Component {
   render() {
     return (
       <div>
-        <div style={{backgroundImage: `url(${pixel})`, backgroundSize: "64px"}}>
-          <img style={{height:"64px"}} src={logo} alt="Logo"/>
+        <div style={{backgroundImage: `url(${pixel})`, backgroundSize: "64px"}} className="header-pixels">
+          <img style={{height:"64px"}} src={logo} alt="Logo" className="header-logo"/>
         </div>
         <Navbar
           color="warning"
