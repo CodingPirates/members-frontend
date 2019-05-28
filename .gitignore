@@ -24,4 +24,4 @@ yarn-error.log*
 
 
 # PHP-Storm 
-/.idea
+.idea/
